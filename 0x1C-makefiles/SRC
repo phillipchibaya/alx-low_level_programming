@@ -1,0 +1,4 @@
+C = gcc
+all : school
+school : school.o main.o
+	$(CC) $(SRC) -o schoolie
